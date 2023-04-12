@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="./images/teamwork.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
+    
+   
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsivo.css">
+
+    
+    <script src="https://kit.fontawesome.com/d42abd22c5.js" crossorigin="anonymous"></script>
+
+    <title>Projeto WP - LandingPage</title>
+</head>
+<body>
+
+    <a href="http://api.whatsapp.com/send?phone=5561992160122&text=Gostaria%20de%20receber%20mais%20informações" class="icon-zap" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+    
+    <section class="topo">
+        <div class="center">
+            <header class="header">
+                <div class="logo">
+                    <img src="images/logo.png">
+                </div>
+
+                <ul class="menu-desktop">
+                    <li class="nav-item"><a href="index.php">Home</a></li>
+                    <li class="nav-item"><a href="sobre.php">Sobre</a></li>
+                    <li class="nav-item"><a href="">Contato</a></li>
+                </ul>
+
+                <div class="hamburguer">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div> 
+            </header>
+        </div><!--center-->       
+    </section><!--topo-->
+
+    <section class="form-contato">
+        <div class="center">
+            <div class="container-contato">
+                <div class="left-contato">
+                    <h2>A mais importante, <br>primeira conversa.</h2><br>
+                    <p><b>Telefone:</b> (61) 5555-5555</p>
+                    <p><b>Email:</b> emailteste@email.com</p>
+                    <p><b>Endereço:</b> Asa Sul, Brasília-DF</p>
+
+                    <div class="mapa-container">
+                        <div id="mapa">
+                            <iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0" id="gmap_canvas" src="https://maps.google.com/maps?width=463&amp;height=283&amp;hl=en&amp;q=Quadra%20102%20Conjunto%201%20Edificio%20Luna%20Bella%20SAMAMBAIA+(Endere%C3%A7o%20Comercial)&amp;t=&amp;z=13&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"></iframe>                       
+                        </div>
+                    </div>
+                </div>
+                <div class="rigth-contato">
+                    <form class="contato">
+                        <input type="text" name="nome" id="nome" placeholder="Nome">
+                        <input type="email" name="email" id="email" placeholder="Email">
+                        <input type="text" name="contato" id="contato" placeholder="Contato">
+                        <select>
+                            <option>Geral</option>
+                            <option>Empresa</option>
+                            <option>Pessoal</option>
+                        </select>
+                        <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Fala mais sobre sua necessidade..."></textarea>
+                        <input type="submit" value="Enviar">
+                    </form>                    
+                </div>
+            </div><!--container-contato-->
+        </div><!--center-->
+    </section><!--form-contato-->
+
+
+    <footer>
+        <div class="center">
+            <div class="wrap-footer">
+                <div class="col-footer">
+                    <h2>Suporte</h2>
+                    <a href="">Blog</a>
+                    <a href="">FAQ</a>
+                </div>
+                <div class="col-footer">
+                    <h2>Consultoria</h2>
+                    <a href="">Metodologia</a>
+                    <a href="">Cases</a>
+                </div>
+                <div class="col-footer">
+                    <h2>Empresa</h2>
+                    <a href="">Sobre</a>
+                    <a href="">Política de Privacidade</a>
+                </div>
+                <div class="col-footer-img">
+                    <img src="images/logo-footer.png">
+                </div>
+            </div>            
+        </div>
+    </footer>
+
+
+
+
+
+
+
+    <script src="js/menu.js"></script>
+</body>
+
+ 
+</html>
